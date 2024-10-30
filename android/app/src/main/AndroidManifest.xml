@@ -6,7 +6,7 @@
         android:name="android.hardware.telephony"
         android:required="false" />
     <application
-        android:label="ROCKCREEK"
+        android:label="ROCKCREEAK"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
