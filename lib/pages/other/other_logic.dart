@@ -79,7 +79,7 @@ class OtherLogic extends GetxController {
       applicationName: info.appName,
       applicationVersion: info.version,
       applicationIcon: Image.asset(
-        'assets/launcher.webp',
+        'assets/image.png',
         width: 70,
         height: 70,
       ),
