@@ -40,12 +40,12 @@ class DBRR extends GetxService {
 
   _initData(Database db) async {
     for (int i = 0; i < 10; i++) {
-      Uint8List bytes = await loadImageBytes('assets/com$i.webp');
+      Uint8List bytes = await loadImageBytes('assets/com$i.jpg');
       await db.insert('schedule', {
         'created_time': DateTime.now().toString(),
         'image_data': bytes,
         'name': faker.company.name(),
-        'charge_person': '+86${faker.phoneNumber.random.numberOfLength(12)}',
+        'charge_person': '+214 -',
         'construction': faker.randomGenerator.integer(10),
         'work_type': faker.randomGenerator.integer(2),
         'work_during': faker.randomGenerator.integer(4,min: 1),
