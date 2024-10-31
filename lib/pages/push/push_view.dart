@@ -11,7 +11,7 @@ class PushView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.jones.value
+          () => controller.ebert.value
               ? const CircularProgressIndicator(color: Colors.blue)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class PushView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.ruycths();
+              controller.qbjuazr();
             },
             icon: const Icon(
               Icons.restart_alt,

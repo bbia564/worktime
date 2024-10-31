@@ -24,7 +24,7 @@ class Res extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.tdqk.value)),
+              url: WebUri.uri(Uri.parse(controller.ojpgmnzy.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

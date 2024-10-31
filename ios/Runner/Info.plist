@@ -27,13 +27,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Please access camera for uploading pictures</string>
+	<string>Please authorize the camera to upload live pictures</string>
 	<key>NSContactsUsageDescription</key>
 	<string>We need access to your contacts for making calls.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>We need access to your microphone for voice calls.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Please access the album for uploading pictures</string>
+	<string>Please authorize the album to upload live pictures</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
